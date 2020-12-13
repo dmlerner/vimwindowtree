@@ -1,8 +1,8 @@
 echo "It worked!"
 
-set s:plugin_root_dir = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+let s:plugin_root_dir = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
-python << EOF
+python3 << EOF
 import sys
 from os.path import normpath, join
 import vim
