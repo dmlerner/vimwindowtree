@@ -13,6 +13,6 @@ import sample
 EOF
 
 function! RotateWindows()
-	python3 rotate_windows()
+	python rotate_windows()
 endfunction
 command! -nargs=0 Rw call RotateWindows()
