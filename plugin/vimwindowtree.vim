@@ -12,7 +12,7 @@ sys.path.insert(0, python_root_dir)
 import sample
 EOF
 
-function! RotateWindows()
-	python rotate_windows()
+function! Rw()
+	python3 rotate_windows()
 endfunction
 command! -nargs=0 Rw call RotateWindows()
