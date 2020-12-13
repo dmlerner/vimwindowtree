@@ -14,6 +14,6 @@ import sample
 EOF
 
 function! Rw()
-	python3 sample.rotate_windows()
+	python3 sample.rotate_windows(vim)
 endfunction
 command! -nargs=0 Rw call Rw()
