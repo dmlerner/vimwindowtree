@@ -11,3 +11,7 @@ python_root_dir = normpath(join(plugin_root_dir, '..', 'python'))
 sys.path.insert(0, python_root_dir)
 import sample
 EOF
+
+function! RotateWindows()
+	python3 rotate_windows()
+endfunction
