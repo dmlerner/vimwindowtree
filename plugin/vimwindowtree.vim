@@ -15,3 +15,4 @@ EOF
 function! RotateWindows()
 	python3 rotate_windows()
 endfunction
+command! -nargs=0 rw call RotateWindows()
