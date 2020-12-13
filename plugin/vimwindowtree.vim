@@ -17,4 +17,4 @@ EOF
 function! Rw()
 	python3 rotate_windows()
 endfunction
-command! -nargs=0 Rw call RotateWindows()
+command! -nargs=0 Rw call Rw()
