@@ -1,6 +1,11 @@
 import datetime
 
+x = 0
+
 def rotate_windows(vim):
+    global x
+    x += 1
+    print(x)
     print(datetime.datetime.now())
     print(vim.current.window)
     print(vim.windows)
