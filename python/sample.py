@@ -14,6 +14,8 @@ def rotate_windows(vim):
     #/#print(vars(vim.current.window.vars))
     #/print(vim.current.tabpage.windows)
     vim.current.tabpage.window.width += 10
+    ws = [w.width for w in vim.current.tabpage.windows]
+    print(ws, sum(ws))
 
     #/print("rotating")
-    vim.command("vs")
+    #vim.command("vs")
